@@ -133,4 +133,40 @@ else
 
 ## exercise 5 
 
+```ocaml
+let rec f x = if x >= 1000 then 
+let x_fl = float_of_int(x) and
+	str_x = string_of_int(x) in
+let chr1 = int_of_string(Char.escaped str_x.[0]) and
+	chr2 = int_of_string(Char.escaped str_x.[1]) and
+	chr3 = int_of_string(Char.escaped str_x.[2]) and
+	chr4 = int_of_string(Char.escaped str_x.[3]) in
+if chr1 = chr2 && chr3 = chr4 then 
+	if float_of_int(int_of_float(sqrt(x_fl)))=sqrt(x_fl) then 
+	let s = x 
+	else 
+		f (x-1)
+else
+	f (x-1)
+```
+
+------
+
+## exercise 6 
+
+```ocaml
+let f x = let e_1 = x-5000 in
+if e_1 > 99 && e_1 > 1000 then 
+	let e_2 = (e_1*1000)+e_1 in
+	let e_3 = (e_2/7)-(7*(e_2 mod 7)) in 
+	let e_4 = (e_3/11)-(11*(e_3 mod 11)) in 
+	let e_5 = (e_4/13)-(13*(e_4 mod 13)) in
+	match e_5 with
+		| 555 -> true
+		| _ -> false
+else
+	false
+
+
+```
 
