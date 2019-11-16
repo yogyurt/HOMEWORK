@@ -12,6 +12,9 @@ S - S - W - L - K - J - G - S - G - J
 [esc] - [esc] - W - L - K - J - G - S - G - J
 [enter] - [enter] - W - L - K - J - G - S - G - J
 / - / - W - L - K - J - G - S - G - J
+-
+G - G - G - G - G - S - S - G - G - G - J - K - J - G - S - G - J - G
+G - G - G - J - K - L- [tab] - L - W - W - W - L - W - [tab]
 ```
 ===================================================
 
@@ -36,3 +39,6 @@ M - [esc] - M - . - [enter] - V - V - . - M - B - M
 [esc] - S - [esc] - F - F - S - [esc] - S - J - J
 S - F - S - G - G - J - L - J
 ```
+===================================================
+
+
